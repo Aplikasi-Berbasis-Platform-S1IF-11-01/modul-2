@@ -96,4 +96,5 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 - Pada baris **19-30**, sisa baris isian tabel dibagi dengan elemen `<td>` yang dikelompokkan baris ke baris menggunakan tag awal `<tr>`. Setiap tag baris `<tr>` akan dieksekusi bergiliran sebagai bungkus satu profil entri mahasiswa, disusul per elemen anaknya berisikan data sejajar rata kolom.
 
 ## Refrensi
+
 - [Materi Modul 2](https://drive.google.com/file/d/1Gcsi-U4rzqU0GC6dYTlzO7KUthrGoL8q/view?usp=sharing)
