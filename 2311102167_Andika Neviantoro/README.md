@@ -2,7 +2,7 @@
   <br />
   <h1>LAPORAN PRAKTIKUM <br>APLIKASI BERBASIS PLATFORM</h1>
   <br />
-  <h3>MODUL 1 <br> GIT</h3>
+  <h3>MODUL 2 <br> GIT</h3>
   <br />
  <img width="367" height="369" alt="image" src="https://github.com/user-attachments/assets/befbef1c-dd3d-4030-8c7c-def8d359943e" />
   <br />
