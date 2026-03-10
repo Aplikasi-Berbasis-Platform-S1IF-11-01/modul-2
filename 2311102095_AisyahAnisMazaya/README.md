@@ -65,6 +65,7 @@ Code html nya:
         <th>Nama</th>
         <th>Mata Kuliah</th>
     </tr>
+    <!-- 2311102095 - Aisyah Anis Mazaya - Modul_2 -->
     <tr>
         <td>Aisyah</td>
         <td>Aplikasi Berbasis Platform</td>
@@ -73,7 +74,7 @@ Code html nya:
         <td>Anis</td>
         <td>Kewirausahaan</td>
     </tr>
-     <tr>
+    <tr>
         <td>Picu</td>
         <td>Informatika Untuk Masyarakat</td>
     </tr>
