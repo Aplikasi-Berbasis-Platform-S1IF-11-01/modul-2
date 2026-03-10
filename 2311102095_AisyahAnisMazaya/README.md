@@ -52,12 +52,11 @@
 
 ## Dasar Teori
 
-HTML (*HyperText Markup Language*) merupakan fondasi utama dalam merancang kerangka serta struktur sebuah situs web. Dengan memanfaatkan sistem elemen bersarang (*nested elements*), bahasa ini memberikan instruksi mendetail kepada peramban (*browser*) mengenai cara menampilkan konten mulai dari teks dan gambar hingga pengaturan tata letak secara menyeluruh. Untuk membangun sebuah tabel secara konvensional tanpa bantuan CSS, pengembang web menggunakan tag `<table>` yang didukung oleh elemen `<tr>` untuk mendefinisikan baris `<th>` untuk bagian kepala tabel, serta `<td>` untuk mengisi data pada setiap selnya.
+HTML adalah fondasi utama dalam membangun struktur halaman web. Cara kerjanya mengandalkan sistem tag bersarang yang menginstruksikan browser untuk menyusun teks, gambar, hingga tata letak secara keseluruhan. Jika ingin membuat tabel murni hanya dengan HTML tanpa bantuan CSS, kita bisa menggunakan elemen `<table>` sebagai bingkai utama, yang kemudian diisi dengan `<tr>` untuk membuat baris, `<th>` untuk judul kolom, serta `<td>` untuk mengisi data di setiap selnya.
 
-Selain struktur dasar tersebut terdapat atribut `rowspan` dan `colspan` yang memungkinkan penggabungan baris atau kolom agar tampilan data lebih fleksibel. Meskipun kini sudah dianggap sebagai metode lama (*legacy*) HTML juga memiliki atribut presentasi langsung seperti `border` untuk mengatur garis tepi serta `cellpadding` dan `cellspacing` untuk memodifikasi jarak spasi di dalam maupun antar sel. Selain itu terdapat pula tag `<center>` yang secara tradisional digunakan untuk memosisikan elemen tepat di tengah halaman web.
+Untuk kebutuhan layout yang lebih kompleks, tersedia atribut `rowspan` untuk menyatukan beberapa baris atau `colspan` untuk menggabungkan kolom. Meskipun saat ini sudah dianggap metode lama atau legacy, HTML juga menyediakan opsi pengaturan tampilan langsung melalui atribut `border`, `cellpadding`, dan `cellspacing` untuk mengatur garis serta jarak antar sel. Bahkan, ada tag `<center>` yang dapat digunakan untuk meletakkan konten tepat di posisi tengah halaman secara instan.
 
-## Kode program HTML
-Code html nya:
+## Kode Program
 
 ```html
 <table border="1" align="center">
@@ -65,8 +64,8 @@ Code html nya:
         <th>Nama</th>
         <th>Mata Kuliah</th>
     </tr>
-    <!-- 2311102095 - Aisyah Anis Mazaya - Modul_2 -->
     <tr>
+        <!-- 2311102095 - Aisyah Anis Mazaya - Modul_2 -->
         <td>Aisyah</td>
         <td>Aplikasi Berbasis Platform</td>
     </tr>
@@ -74,7 +73,7 @@ Code html nya:
         <td>Anis</td>
         <td>Kewirausahaan</td>
     </tr>
-    <tr>
+     <tr>
         <td>Picu</td>
         <td>Informatika Untuk Masyarakat</td>
     </tr>
@@ -86,14 +85,9 @@ Code html nya:
 </table>
 ```
 
-## Tampilan ss
-![Tampilan Program](sstabel.png)
+### Output
 
-## Penjelasan Kode
+![Output](sstabel.png)
+Kode HTML tersebut berfungsi untuk membuat sebuah tabel data mahasiswa yang rapi di tengah halaman. Penggunaan tag `<table>` dengan atribut `border="1"` memberikan garis tepi pada setiap sel, sementara `align="center"` memastikan tabel berada tepat di posisi tengah. Pada baris pertama, digunakan tag `<tr>` yang berisi header `<th>` untuk kolom "Nama" dan "Mata Kuliah" yang secara otomatis tercetak tebal.
 
-Kode di atas merupakan implementasi pembuatan tabel menggunakan sintaks HTML. 
-Tabel dibuat menggunakan tag `<table>` dengan atribut `border="1"` untuk menampilkan garis pembatas pada setiap sel, serta atribut `align="center"` yang berfungsi untuk menempatkan tabel di tengah halaman secara horizontal.
-
-Struktur tabel dibagi menjadi beberapa baris menggunakan tag `<tr>`. Baris pertama menggunakan tag `<th>` sebagai header tabel yang berisi judul kolom **Nama** dan **Mata Kuliah**.
-
-Baris berikutnya menggunakan tag `<td>` untuk menampilkan data mahasiswa, yaitu Aisyah, Anis, Picu, dan Muja beserta mata kuliah yang mereka ambil.
+Selanjutnya, setiap baris data mahasiswa didefinisikan menggunakan tag `<tr>` dan sel datanya menggunakan tag `<td>`. Data yang ditampilkan mencakup daftar nama seperti Aisyah, Anis, Picu, dan Muja beserta mata kuliah yang mereka ambil, seperti Aplikasi Berbasis Platform hingga Computing Project. Di dalam kode juga terdapat komentar HTML yang berisi informasi identitas mahasiswa (NIM dan Modul) sebagai dokumentasi internal tanpa muncul di tampilan browser. Struktur ini diakhiri dengan tag penutup `</table>` untuk memastikan dokumen HTML valid dan terstruktur dengan benar.
