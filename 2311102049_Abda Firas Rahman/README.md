@@ -52,9 +52,11 @@
 
 ## Dasar Teori
 
-HTML (HyperText Markup Language) merupakan bahasa markah standar web yang digunakan untuk membuat dan menyusun struktur sebuah halaman website. HTML bekerja menggunakan sederet tag bersarang (nested element) untuk memberi tahu web browser bagaimana cara menampilkan elemen teks, gambar, maupun layout secara keseluruhan di layar. Dalam pembuatan struktur tabel murni yang memanfaatkan HTML (tanpa bantuan dari Cascading Style Sheets atau CSS), kita dapat menggunakan format elemen <table> dan didukung oleh tag <tr> untuk baris, <th> untuk header tabel, serta <td> untuk sel data tabel.
+## Dasar Teori
 
-Selain struktur dasar, HTML juga menyediakan atribut seperti rowspan untuk menggabungkan baris dan colspan untuk menggabungkan kolom. Atribut lain yang sering digunakan pada sisi presentasi (meskipun format ini lebih tua atau legacy) meliputi tag <center> untuk meratakan konten tepat di tengah layar, serta atribut border, cellpadding, dan cellspacing pada tag <table> yang berfungsi untuk mengatur spasi antar sel serta ketebalan garis batas tabel secara langsung.
+HTML (*HyperText Markup Language*) merupakan bahasa markah standar web yang digunakan untuk membuat dan menyusun struktur sebuah halaman website. HTML bekerja menggunakan sederet tag bersarang (*nested element*) untuk memberi tahu *web browser* bagaimana cara menampilkan elemen teks, gambar, maupun layout secara keseluruhan di layar. Dalam pembuatan struktur tabel murni yang memanfaatkan HTML (tanpa bantuan dari *Cascading Style Sheets* atau CSS), kita dapat menggunakan format elemen `<table>` dan didukung oleh tag `<tr>` untuk baris, `<th>` untuk header tabel, serta `<td>` untuk sel data tabel.
+
+Selain struktur dasar, HTML juga menyediakan atribut seperti `rowspan` untuk menggabungkan baris dan `colspan` untuk menggabungkan kolom. Atribut lain yang sering digunakan pada sisi presentasi (meskipun format ini lebih tua atau *legacy*) meliputi tag `<center>` untuk meratakan konten tepat di tengah layar, serta atribut `border`, `cellpadding`, dan `cellspacing` pada tag `<table>` yang berfungsi untuk mengatur spasi antar sel serta ketebalan garis batas tabel secara langsung.
 
 ## Kode program HTML
 Berikut adalah kode nya:
