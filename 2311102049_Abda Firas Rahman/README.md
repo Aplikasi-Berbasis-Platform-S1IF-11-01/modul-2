@@ -52,8 +52,6 @@
 
 ## Dasar Teori
 
-## Dasar Teori
-
 HTML (*HyperText Markup Language*) merupakan bahasa markah standar web yang digunakan untuk membuat dan menyusun struktur sebuah halaman website. HTML bekerja menggunakan sederet tag bersarang (*nested element*) untuk memberi tahu *web browser* bagaimana cara menampilkan elemen teks, gambar, maupun layout secara keseluruhan di layar. Dalam pembuatan struktur tabel murni yang memanfaatkan HTML (tanpa bantuan dari *Cascading Style Sheets* atau CSS), kita dapat menggunakan format elemen `<table>` dan didukung oleh tag `<tr>` untuk baris, `<th>` untuk header tabel, serta `<td>` untuk sel data tabel.
 
 Selain struktur dasar, HTML juga menyediakan atribut seperti `rowspan` untuk menggabungkan baris dan `colspan` untuk menggabungkan kolom. Atribut lain yang sering digunakan pada sisi presentasi (meskipun format ini lebih tua atau *legacy*) meliputi tag `<center>` untuk meratakan konten tepat di tengah layar, serta atribut `border`, `cellpadding`, dan `cellspacing` pada tag `<table>` yang berfungsi untuk mengatur spasi antar sel serta ketebalan garis batas tabel secara langsung.
@@ -99,11 +97,12 @@ Berikut adalah kode nya:
 ## Tampilan ss
 ![Tampilan Program](ss1.png)
 
-## Penjelasan kode
-Kode di atas merupakan implementasi struktur tabel menggunakan sintaks HTML tanpa menggunakan styling eksternal maupun internal. Tabel ditempatkan di tengah halaman menggunakan tag <center> agar seluruh elemen tabel berada di tengah layar secara horizontal.
+## Penjelasan Kode
 
-Tag <table> menggunakan atribut border="1" untuk menampilkan garis pembatas pada setiap sel dan cellpadding="10" untuk memberikan jarak antara teks dengan tepi garis sehingga tampilan data menjadi lebih rapi dan mudah dibaca.
+Kode di atas merupakan implementasi struktur tabel menggunakan sintaks HTML tanpa menggunakan *styling* eksternal maupun internal. Tabel ditempatkan di tengah halaman menggunakan tag `<center>` agar seluruh elemen tabel berada di tengah layar secara horizontal.
 
-Struktur tabel dibagi menjadi beberapa baris menggunakan tag <tr>. Baris pertama menggunakan tag <th> sebagai header tabel untuk kolom No, Nama, dan NIM sehingga teks tampil lebih tebal.
+Tag `<table>` menggunakan atribut `border="1"` untuk menampilkan garis pembatas pada setiap sel dan `cellpadding="10"` untuk memberikan ruang antara teks dengan tepi garis sehingga tampilan data menjadi lebih rapi dan mudah dibaca.
 
-Baris berikutnya menggunakan tag <td> untuk menampilkan data mahasiswa, yaitu Abda Firas Rahman, Dafa G, dan Dafi beserta NIM masing-masing. Seluruh tampilan pada tabel ini menggunakan atribut bawaan HTML sesuai dengan batasan tugas yang diberikan.
+Struktur tabel dibagi menjadi beberapa baris menggunakan tag `<tr>`. Baris pertama menggunakan tag `<th>` sebagai *header* tabel untuk kolom No, Nama, dan NIM sehingga teks tampil lebih tebal secara otomatis.
+
+Baris berikutnya menggunakan tag `<td>` untuk menampilkan data mahasiswa, yaitu Abda Firas Rahman, Dafa G, dan Dafi beserta NIM masing-masing. Seluruh tampilan pada tabel ini sepenuhnya mengandalkan atribut bawaan HTML sesuai dengan batasan tugas yang diberikan.
