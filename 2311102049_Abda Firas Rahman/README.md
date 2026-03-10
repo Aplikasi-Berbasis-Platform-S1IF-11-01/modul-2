@@ -59,36 +59,49 @@ Selain struktur dasar, HTML juga menyediakan atribut seperti rowspan untuk mengg
 ## Kode program HTML
 Berikut adalah kode nya:
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tabel Mahasiswa</title>
+</head>
+<body>
+
 <center>
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>Nim </th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Abda Firas Rahman</td>
-            <td>2311102049</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Dafa G</td>
-            <td>318826613</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>dafi</td>
-            <td>988123</td>
-        </tr>
-    </table>
+<table border="1" cellpadding="10">
+<tr>
+<th>No</th>
+<th>Nama</th>
+<th>NIM</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Abda Firas Rahman</td>
+<td>2311102049</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Dafa G</td>
+<td>2311102050</td>
+</tr>
+
+</table>
 </center>
+
+</body>
+</html>
+```
 
 ## Tampilan ss
 ![Tampilan Program](ss1.png)
 
 ## Penjelasan kode
+Kode di atas merupakan implementasi struktur tabel menggunakan sintaks HTML tanpa menggunakan styling eksternal maupun internal. Tabel ditempatkan di tengah halaman menggunakan tag <center> agar seluruh elemen tabel berada di tengah layar secara horizontal.
 
-Kode di atas merupakan implementasi struktur tabel murni yang disusun menggunakan sintaks HTML tanpa melibatkan styling eksternal maupun internal. Penempatan tabel dilakukan dengan menggunakan tag <center> sebagai pembungkus utama guna memastikan seluruh elemen tabel berada tepat di tengah layar secara horizontal. Pada bagian awal, tag <table> dikonfigurasi dengan atribut border="1" untuk menampilkan garis pembatas sel dan cellpadding="10" untuk memberikan ruang atau jarak antara teks dengan tepi garis agar tampilan data menjadi lebih rapi dan mudah dibaca.
-Struktur data di dalamnya dibagi menjadi beberapa baris menggunakan tag <tr>. Baris pertama difungsikan sebagai header tabel dengan tag <th>, yang secara otomatis menebalkan teks untuk kolom "No", "Nama", dan "NIM". Selanjutnya, baris kedua hingga keempat menggunakan tag <td> untuk menyajikan data spesifik mahasiswa, yakni Abda Firas Rahman, Dafa G, dan Dafi beserta NIM masing-masing. Seluruh pengaturan visual pada kode ini sepenuhnya bergantung pada atribut bawaan (deprecated attributes) untuk menjaga konsistensi tampilan sesuai batasan tugas yang diberikan.
+Tag <table> menggunakan atribut border="1" untuk menampilkan garis pembatas pada setiap sel dan cellpadding="10" untuk memberikan jarak antara teks dengan tepi garis sehingga tampilan data menjadi lebih rapi dan mudah dibaca.
 
+Struktur tabel dibagi menjadi beberapa baris menggunakan tag <tr>. Baris pertama menggunakan tag <th> sebagai header tabel untuk kolom No, Nama, dan NIM sehingga teks tampil lebih tebal.
+
+Baris berikutnya menggunakan tag <td> untuk menampilkan data mahasiswa, yaitu Abda Firas Rahman, Dafa G, dan Dafi beserta NIM masing-masing. Seluruh tampilan pada tabel ini menggunakan atribut bawaan HTML sesuai dengan batasan tugas yang diberikan.
