@@ -7,8 +7,8 @@
 
   <br />
 
-  <h3>MODUL I <br>
-  GIT
+  <h3>MODUL 2 <br>
+  HTML
   </h3>
 
   <br />
