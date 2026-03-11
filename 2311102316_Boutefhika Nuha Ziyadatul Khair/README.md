@@ -139,7 +139,9 @@ yang lain. Tag yang digunakan adalah tag <a>...</a>
 <a href="www.google.co.id"> Visit Google </a>
 ```
 output:
+
 ![Gambar 4](Images/Gambar4.png)
+
 Dalam tag Hyperlink pada HTML ada satu atribut yang harus digunakan agar konten yang ada di antara tag hyperlink berjalan dan dapat melakukan navigasi menuju laman web lain yaitu atribut href. Atribut ini bernilai url atau alamat dari laman web tujuan.
 
 ## 3.5. Tabel
@@ -166,7 +168,9 @@ yang membutuhkan bentuk tabel. Tabel pada HTML didefinisikan dengan tag <table><
     </body>
 </html>
 ```
+
 ![Gambar 5](Images/Gambar5.png)
+
 Dalam tabel HTML kita dapat melakukan operasi Merge Cell yang biasanya dapat dilakukan pada aplikasi perkantoran seperti Microsoft Word atau Excel dengan cara menambahkan atribut colspan dan rowspan pada tag pembuka kolom yaitu <td> nilai dari atribut tersebut berupa jumlah kolom atau baris yang akan digabungkan.
   
 ```
@@ -231,7 +235,7 @@ Sebelum berkembangnya teknologi HTML5, untuk menyisipkan audio atau video, diper
     <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
 </p>
 ```
-![Gambar 8(Images/Gambar8.png)
+![Gambar 8](Images/Gambar8.png)
 
 ## 3.8. Form
 Form pada HTML digunakan sebagai wadah untuk menampung dan mengumpulkan data-data dari
