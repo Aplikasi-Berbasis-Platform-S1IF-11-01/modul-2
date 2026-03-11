@@ -408,31 +408,31 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
         <tr>
             <th scope="col">#</th>
             <th scope="col">Nama Lengkap</th>
-            <th scope="col">Asal Kota</th>
-            <th scope="col">Umur</th>
+            <th scope="col">Prodi</th>
+            <th scope="col">NIM</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>Budi Rojadi</td>
-            <td>Semarang</td>
-            <td>35 th</td>
+            <td>Boutefhika</td>
+            <td>Informatika</td>
+            <td>2311102316</td>
         </tr>
 
         <tr>
             <th scope="row">2</th>
-            <td>Yulia Santi</td>
-            <td>Bekasi</td>
-            <td>32 th</td>
+            <td>Nuha</td>
+            <td>Sistem Informasi</td>
+            <td>2311102134</td>
         </tr>
 
         <tr>
             <th scope="row">3</th>
-            <td>Fahri Abdilah</td>
-            <td>Medan</td>
-            <td>38 th</td>
+            <td>Ziya</td>
+            <td>Desain Komunikasi Visual</td>
+            <td>2311102021</td>
         </tr>
     </tbody>
 </table>
@@ -445,4 +445,4 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
 Output:
 ![Gambar 10](Images/Tabel.png)
 Deskripsi Program:
-Program HTML tersebut digunakan untuk menampilkan tabel mahasiswa yang berisi data sederhana seperti nomor, nama, NIM, dan program studi. Tabel dibuat menggunakan tag <table>, <tr>, <th>, dan <td> untuk menyusun baris serta kolom data. Agar tampilan tabel berada di tengah halaman, digunakan tag `<center>` tanpa menggunakan CSS atau styling tambahan. Program ini bertujuan untuk memahami dasar pembuatan tabel pada HTML serta cara menampilkan data secara terstruktur di halaman web.
+Program HTML tersebut digunakan untuk menampilkan tabel mahasiswa yang berisi data sederhana seperti nomor, nama, NIM, dan program studi. Tabel dibuat menggunakan tag table, tr, th, dan td untuk menyusun baris serta kolom data. Agar tampilan tabel berada di tengah halaman, digunakan tag center tanpa menggunakan CSS atau styling tambahan. Program ini bertujuan untuk memahami dasar pembuatan tabel pada HTML serta cara menampilkan data secara terstruktur di halaman web.
