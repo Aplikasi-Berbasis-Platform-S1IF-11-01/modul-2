@@ -7,7 +7,7 @@
 
   <br />
 
-  <h3>MODUL 2 <br>
+  <h3>MODUL 3 <br>
   HTML
   </h3>
 
@@ -444,3 +444,5 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
 ```
 Output:
 ![Gambar 10](Images/Tabel.png)
+Deskripsi Program:
+Program HTML tersebut digunakan untuk menampilkan tabel mahasiswa yang berisi data sederhana seperti nomor, nama, NIM, dan program studi. Tabel dibuat menggunakan tag <table>, <tr>, <th>, dan <td> untuk menyusun baris serta kolom data. Agar tampilan tabel berada di tengah halaman, digunakan tag `<center>` tanpa menggunakan CSS atau styling tambahan. Program ini bertujuan untuk memahami dasar pembuatan tabel pada HTML serta cara menampilkan data secara terstruktur di halaman web.
