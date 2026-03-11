@@ -7,7 +7,7 @@
 
   <br />
 
-  <h3>MODUL 3 <br>
+  <h3>MODUL 2 <br>
   HTML
   </h3>
 
