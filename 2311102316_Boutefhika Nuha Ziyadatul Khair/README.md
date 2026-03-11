@@ -13,7 +13,7 @@
 
   <br />
 
-  <img width="512" height="512" alt="logo" src="https://github.com/user-attachments/assets/73fb8096-8912-4295-aeb9-ff3d2f901790" />
+  <img width="512" height="512" alt="logo" src="https://github.com/user-attachments/assets/22ae9b17-5e73-48a6-b5dd-281e6c70613e" />
 
 
 
@@ -57,7 +57,7 @@
 HTML atau HyperText Markup Language merupakan bahasa dasar yang digunakan untuk membangun
 sebuah web dimana HTML menangani elemen-elemen dasar pada pembangunan sebuah website. Struktur
 HTML paling dasar adalah sebagai berikut:
-![Gambar 1](Images/Gambar1.png)
+![Gambar 0](Images/Struktur.png)
 
 ### 3.1.1. Tag HTML
 Tag dalam HTML secara normal memiliki sepasang tag di mana tag pertama merupakan tag pembuka dan
@@ -85,12 +85,15 @@ Elemen HTML merupakan tag HTML yang telah memiliki konten atau isi di antara ked
 </body>
 </html>
 ```
+![Gambar 1](Images/Gambar1.png)
+
 ### 3.1.3. Atribut HTML
 Atribut HTML merupakan tambahan informasi dari sebuah tag HTML. Bentuk atribut untuk setiap tag HTML berbeda-beda sehingga kegunaan atribut juga berbeda seperti menambahkan informasi warna elemen, ukuran lebar, ukuran panjang dan lain-lain. Namun, mayoritas atribut yang sering muncul untuk setiap tag HTML adalah atribut “id” dan “class” karena kedua atribut ini berperan besar dalam pengembangan laman web dengan CSS dan JavaScript. Atribut HTML dideklarasikan di dalam tag pembuka pada setiap elemen HTML dengan format nama_atribut=”value”, setiap nilai atribut diapit oleh petik dua.
 ```
 <a href=”www.google.co.id” > Google.co.id </a>
 <input type=”button” id=”btnSubmit” class=”btnSubmit1” value=”Kirim”/>
 ```
+![Gambar 2](Images/Gambar2.png)
 
 ## 3.2. Dasar Sintaks HTML
 ```
@@ -127,7 +130,7 @@ sistem mesin pencarian bekerja dengan menggunakan Heading laman web kita sebagai
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
-<p align="center"><img width="310" height="329" alt="image" src="https://github.com/user-attachments/assets/79cede82-46e1-487d-a142-f9112c9d84b2" /></p>
+![Gambar 3](Images/Gambar3.png)
 
 ## 3.4. Hyperlink
 Hyperlink dalam HTML memungkinkan halaman web berpindah laman atau bernavigasi menuju laman web
@@ -136,66 +139,73 @@ yang lain. Tag yang digunakan adalah tag <a>...</a>
 <a href="www.google.co.id"> Visit Google </a>
 ```
 output:
-<img width="394" height="104" alt="image" src="https://github.com/user-attachments/assets/a1f2aaf7-f0e1-40cf-9d1f-b4221cefceb7" />
+
+![Gambar 4](Images/Gambar4.png)
+
 Dalam tag Hyperlink pada HTML ada satu atribut yang harus digunakan agar konten yang ada di antara tag hyperlink berjalan dan dapat melakukan navigasi menuju laman web lain yaitu atribut href. Atribut ini bernilai url atau alamat dari laman web tujuan.
 
 ## 3.5. Tabel
 Tabel pada HTML merupakan salah satu elemen penting khususnya digunakan untuk menampilkan data
 yang membutuhkan bentuk tabel. Tabel pada HTML didefinisikan dengan tag <table></table> dengan setiap pendefinisian baris menggunakan tag <tr></tr>, pendefinisian heading tabel menggunakan tag <th></th> dan pendefinisian kolom menggunakan tag <td></td>.
 ```
-<table width=”80%” height=”50%” border="1">
-  <tr>
-    <th>Nama Lengkap</th>
-    <th>Kota Kelahiran</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Budi</td>
-    <td>Jakarta</td>
-    <td>35</td>
-  </tr>
-  <tr>
-    <td>Andi</td>
-    <td>Semarang</td>
-    <td>52</td>
-  </tr>
-
-  <tr>
-    <td>Rasyid</td>
-    <td>Surabaya</td>
-    <td>22</td>
-  </tr>
-</table>
+<html>
+    <head>
+        <title>Tabel</title>
+    </head>
+    <body>
+        <table width=”80%” height=”50%” border="1"> 
+            <tr> 
+                <th>Nama</th> 
+                <th>NIM</th> 
+                <th>Kelas</th> 
+            </tr> 
+            <tr> 
+                <td>Nuha</td> 
+                <td>2311102316</td> 
+                <td>IF-11-01</td> 
+            </tr> 
+            </table> 
+    </body>
+</html>
 ```
-<p align="center"><img width="664" height="279" alt="image" src="https://github.com/user-attachments/assets/28eda226-fc3c-4375-8a80-ab0e9aaafc51" /></p>
+
+![Gambar 5](Images/Gambar5.png)
+
 Dalam tabel HTML kita dapat melakukan operasi Merge Cell yang biasanya dapat dilakukan pada aplikasi perkantoran seperti Microsoft Word atau Excel dengan cara menambahkan atribut colspan dan rowspan pada tag pembuka kolom yaitu <td> nilai dari atribut tersebut berupa jumlah kolom atau baris yang akan digabungkan.
   
 ```
-<table width=”80%” height=”50%” border="1">
-    <tr>
-        <th rowspan="2">Nama Lengkap</th>
-        <th colspan="2">Gelar Pendidikan</th>
-        <th rowspan="2">Age</th>
-    </tr>
-    <tr>
-        <th> Sarjana </th>
-        <th> Magister </th>
-    </tr>
-    <tr>
-        <td>Budi</td>
-        <td>S.Kom</td>
-        <td>M.Sc</td>
-        <td>35</td>
-    </tr>
-    <tr>
-        <td>Andi</td>
-        <td>S.SiKom</td>
-        <td>M.T</td>
-        <td>52</td>
-    </tr>
-</table>
+<html>
+    <head>
+        <title>Tabel</title>
+    </head>
+    <body>
+        <table width=”80%” height=”50%” border="1"> 
+            <tr> 
+                <th rowspan="2">Nama Lengkap</th> 
+                <th colspan="2">Gelar Pendidikan</th> 
+                <th rowspan="2">Age</th> 
+            </tr> 
+            <tr> 
+                <th> Sarjana </th> 
+                <th> Magister </th> 
+            </tr> 
+            <tr> 
+                <td>Budi</td> 
+                <td>S.Kom</td> 
+                <td>M.Sc</td> 
+                <td>35</td> 
+            </tr> 
+            <tr> 
+                <td>Andi</td> 
+                <td>S.SiKom</td> 
+                <td>M.T</td> 
+                <td>52</td> 
+            </tr> 
+            </table> 
+    </body>
+</html>
 ```
-<p align="center"><img width="777" height="303" alt="image" src="https://github.com/user-attachments/assets/96d3774f-5657-4de4-97c6-af8cca0f7e95" /></p>
+![Gambar 6](Images/Gambar6.png)
 
 ## 3.6. Image
 Menampilkan gambar pada halaman web merupakan sebuah improvisasi dalam pembuatan desain sebuah
@@ -203,9 +213,9 @@ web yang dapat memperindah tampilan website. Tag HTML yang digunakan adalah <img
 memiliki pasangan penutup maka dari itu diakhir tag pembuka ditambahkan garis miring seperti di atas. Terdapat satu atribut wajib yang harus ditambahkan seperti atribut href pada tag Hyperlink yaitu atribut src yang bernilai alamat direktori gambar disimpan.
 ```
 <img src="wp (35).jpg" width="50%" height="50%"/>
-<p>Ini Gambar Kincir Angin</p>
+<p>Kucing Aku</p>
 ```
-<p align="center"><img width="506" height="489" alt="image" src="https://github.com/user-attachments/assets/3f500a45-7ddf-400c-9ee2-ba03f84623b5" /></p>
+![Gambar 7](Images/Gambar7.png)
 
 ## 3.7. Audio/ Video Elemen
 Sebelum berkembangnya teknologi HTML5, untuk menyisipkan audio atau video, diperlukan sebuah plugin seperti Flash Player namun sekarang dengan HTML5 memiliki tag yang dapat menyisipkan audio atau video ke dalam laman web. Untuk audio menggunakan tag <audio> untuk tag pembuka dan <source> untuk memanggil url atau alamat direktori file. Sedangkan untuk video menggunakan tag <video>.
@@ -225,7 +235,7 @@ Sebelum berkembangnya teknologi HTML5, untuk menyisipkan audio atau video, diper
     <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
 </p>
 ```
-<p align="center"><img width="608" height="232" alt="image" src="https://github.com/user-attachments/assets/88bb8cec-ca4b-41e8-8c7a-7123ff1f3f59" /></p>
+![Gambar 8](Images/Gambar8.png)
 
 ## 3.8. Form
 Form pada HTML digunakan sebagai wadah untuk menampung dan mengumpulkan data-data dari
@@ -266,7 +276,6 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
 ```
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -276,41 +285,57 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
 <body>
     <center>
         <h2>Formulir Pendaftaran Praktikan</h2>
+
         <form action="#" method="POST">
             <table>
                 <tr>
                     <td><label for="nama_id"><b>Nama:</b></label></td>
                     <td>:</td>
-                    <td><input type="text" name="nama_input" id="nama_id" placeholder="Input Nama" value="Praktikan"
-                            readonly></td>
+                    <td>
+                        <input type="text" name="nama_input" id="nama_id"
+                        placeholder="Input Nama" value="Praktikan" readonly>
+                    </td>
                 </tr>
+
                 <tr>
                     <td><label for="uname_id"><b>Username:</b></label></td>
                     <td>:</td>
-                    <td><input type="text" name="uname_input" id="uname_id" placeholder="Input Username"
-                            value="Praktikum" disabled></td>
+                    <td>
+                        <input type="text" name="uname_input" id="uname_id"
+                        placeholder="Input Username" value="Praktikum" disabled>
+                    </td>
                 </tr>
+
                 <tr>
                     <td><label for="password_id"><b>Password:</b></label></td>
                     <td>:</td>
-                    <td><input type="password" name="password_input" id="password_id" placeholder="Input Password"></td>
+                    <td>
+                        <input type="password" name="password_input" id="password_id"
+                        placeholder="Input Password">
+                    </td>
                 </tr>
+
                 <tr>
                     <td><label for="email_id"><b>Email:</b></label></td>
                     <td>:</td>
-                    <td><input type="email" name="email_input" id="email_id" placeholder="Input Email"></td>
+                    <td>
+                        <input type="email" name="email_input" id="email_id"
+                        placeholder="Input Email">
+                    </td>
                 </tr>
+
                 <tr>
                     <td><b>Jenis Kelamin:</b></td>
                     <td>:</td>
                     <td>
                         <input type="radio" name="jk_input" id="pria" value="Pria">
-
                         <label for="pria">Pria</label>
+
                         <input type="radio" name="jk_input" id="wanita" value="Wanita">
                         <label for="wanita">Wanita</label>
                     </td>
                 </tr>
+
                 <tr>
                     <td><b>Hobi:</b></td>
                     <td>:</td>
@@ -319,13 +344,13 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
                         <label for="renang">Renang</label><br>
 
                         <input type="checkbox" name="hobi_input" id="bersepeda" value="Bersepeda">
-
                         <label for="bersepeda">Bersepeda</label><br>
 
                         <input type="checkbox" name="hobi_input" id="memancing" value="Memancing">
                         <label for="memancing">Memancing</label>
                     </td>
                 </tr>
+
                 <tr>
                     <td><label for="jp_id"><b>Jenjang Pendidikan:</b></label></td>
                     <td>:</td>
@@ -336,104 +361,86 @@ Atribut-atribut elemen form yang sering digunakan antara lain sebagai berikut:
                             <option value="S1">Tamat S1</option>
                             <option value="S2">Tamat S2</option>
                             <option value="S3">Tamat S3</option>
-
                         </select>
                     </td>
                 </tr>
+
                 <tr>
                     <td><label for="kritik_saran"><b>Kritik & Saran:</b></label></td>
                     <td>:</td>
-                    <td><textarea id="kritik_saran" name="kritik_saran" rows="5" cols="30"></textarea></td>
+                    <td>
+                        <textarea id="kritik_saran" name="kritik_saran" rows="5" cols="30"></textarea>
+                    </td>
                 </tr>
+
                 <tr>
                     <td colspan="3" align="right">
                         <input type="button" value="Cancel" class="btn-cancel">
                         <input type="submit" value="Submit" class="btn-submit">
-
                     </td>
                 </tr>
-            </table>
         </form>
+
     </center>
 </body>
-
 </html>
 ```
-<p align="center"><img width="605" height="505" alt="image" src="https://github.com/user-attachments/assets/1869a25b-0587-45a2-9d3d-e885ec38d8d6" /></p>
+![Gambar 9](Images/Gambar9.png)
 
 
 # UNGUIDED (Buat tampilan table dasar namun harus di tengah layar/center dan tidak boleh menggunakan css atau styling atau apapun itu.)
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tabel Data Mahasiswa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Hover Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
 </head>
+
 <body>
 
-<table width="100%" height="100%">
-<tr>
-<td align="center" valign="middle">
+<div class="container mt-4">
 
-<h2>Data Mahasiswa</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nama Lengkap</th>
+            <th scope="col">Asal Kota</th>
+            <th scope="col">Umur</th>
+        </tr>
+    </thead>
 
-<table border="1">
-    <tr>
-        <th>No</th>
-        <th>NIM</th>
-        <th>Nama Mahasiswa</th>
-        <th>Program Studi</th>
-        <th>Angkatan</th>
-    </tr>
-    
-    <tr>
-        <td>1</td>
-        <td>2311102167</td>
-        <td>Andika Neviantoro</td>
-        <td>Teknik Informatika</td>
-        <td>2023</td>
-    </tr>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Budi Rojadi</td>
+            <td>Semarang</td>
+            <td>35 th</td>
+        </tr>
 
-    <tr>
-        <td>2</td>
-        <td>2311102191</td>
-        <td>Fahreza Ilham Wicaksono</td>
-        <td>Teknik Informatika</td>
-        <td>2023</td>
-    </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Yulia Santi</td>
+            <td>Bekasi</td>
+            <td>32 th</td>
+        </tr>
 
-    <tr>
-        <td>3</td>
-        <td>2311102198</td>
-        <td>Andreas Besar Wibowo</td>
-        <td>Teknik Informatika</td>
-        <td>2023</td>
-    </tr>
-
-    <tr>
-        <td>4</td>
-        <td>2311102199</td>
-        <td>Irshad Benaya Fardeca</td>
-        <td>Teknik Informatika</td>
-        <td>2023</td>
-    </tr>
-
-    <tr>
-        <td>5</td>
-        <td>2311102316</td>
-        <td>Boutefhika Nuha Ziyadatul Khair</td>
-        <td>Teknik Informatika</td>
-        <td>2023</td>
-    </tr>
-
+        <tr>
+            <th scope="row">3</th>
+            <td>Fahri Abdilah</td>
+            <td>Medan</td>
+            <td>38 th</td>
+        </tr>
+    </tbody>
 </table>
 
-</td>
-</tr>
-</table>
+</div>
 
 </body>
 </html>
 ```
 Output:
-<img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/43c62779-cf49-46ee-979a-5d7ceb928be0" />
+![Gambar 10](Images/Tabel.png)
