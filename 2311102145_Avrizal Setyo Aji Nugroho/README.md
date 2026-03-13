@@ -122,7 +122,7 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 
 - **Baris 21–26** Bagian <thead> mendefinisikan kepala tabel yang berisi dua kolom utama, yaitu No dan Item, yang dicetak tebal menggunakan elemen <th>.
 
-- **Baris 27–46** Bagian <tbody> berisi lima baris data yang dibungkus dengan tag <tr>. Setiap baris memiliki dua sel (<td>) yang menampilkan nomor urut dan nama item (SAWIT hingga nama mahasiswa: Avrizal Setyo A.N). Tidak ada penggunaan rowspan atau colspan pada bagian ini karena struktur tabel bersifat linier dan sederhana.
+- **Baris 27–46** Bagian <tbody> berisi lima baris data yang dibungkus dengan tag <tr>. Setiap baris memiliki dua sel (<td>) yang menampilkan nomor urut dan nama item (SAWIT hingga nama mahasiswa: Avrizal Setyo A.N). Struktur tabel ini dibuat sederhana tanpa penggunaan rowspan atau colspan agar data tersusun secara linier.
 
 ## Refrensi
 
