@@ -118,17 +118,16 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 
 - **Baris 16–49** Menggunakan struktur tabel bersarang (nested table). Tabel luar berfungsi sebagai kontainer utama dengan atribut width="100%" dan height="600", serta atribut align="center" dan valign="middle" pada sel di dalamnya. Hal ini bertujuan agar tabel data utama yang ada di baris 20 benar-benar berada di titik tengah halaman (baik secara horizontal maupun vertikal).
 
-- **Baris 20** Pada tag <table> untuk data utama, digunakan beberapa atribut seperti border="1", cellpadding="15", dan cellspacing="0".
+- **Baris 20**: Pada tag `<table>` untuk data utama, digunakan atribut `border="1"`, `cellpadding="15"`, dan `cellspacing="0"`.
+  - `border="1"`: menampilkan garis tepi pada setiap sel tabel.
+  - `cellpadding="15"`: memberikan ruang antara teks dengan garis sel agar mudah dibaca.
+  - `cellspacing="0"`: merapatkan jarak antar sel sehingga garis tabel terlihat menyatu (garis tunggal).
 
-border="1" menampilkan garis tepi pada setiap sel tabel.
+- **Baris 21–26**: Bagian `<thead>` mendefinisikan kepala tabel yang berisi dua kolom utama, yaitu **No** dan **Item**.
 
-cellpadding="15" memberikan ruang yang cukup lebar antara teks dengan garis sel agar data lebih mudah dibaca.
+- **Baris 27–46**: Bagian `<tbody>` berisi lima baris data yang dibungkus dengan tag `<tr>`. Setiap baris memiliki dua sel (`<td>`) yang menampilkan nomor urut dan nama item. Struktur ini bersifat linier tanpa `rowspan` atau `colspan`.
 
-cellspacing="0" merapatkan jarak antar sel sehingga garis tabel terlihat menyatu (garis tunggal).
-
-- **Baris 21–26** Bagian <thead> mendefinisikan kepala tabel yang berisi dua kolom utama, yaitu No dan Item, yang dicetak tebal menggunakan elemen <th>.
-
-- **Baris 27–46** Bagian <tbody> berisi lima baris data yang dibungkus dengan tag <tr>. Setiap baris memiliki dua sel (<td>) yang menampilkan nomor urut dan nama item (SAWIT hingga nama mahasiswa: Avrizal Setyo A.N). Tidak ada penggunaan rowspan atau colspan pada bagian ini karena struktur tabel bersifat linier dan sederhana.
+---
 
 ## Refrensi
 
