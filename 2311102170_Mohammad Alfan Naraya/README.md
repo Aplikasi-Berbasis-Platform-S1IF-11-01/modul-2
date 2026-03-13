@@ -102,7 +102,7 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 
 ### Penjelasan Code
 
-- **Baris 1-32** menggunakan tag pembungkus <center> dan tabel bantuan dengan atribut height="100%" yang berfungsi untuk menempatkan seluruh elemen tabel tepat pada posisi tengah halaman, baik secara horizontal maupun vertikal. Dengan penggunaan teknik ini, tabel akan otomatis ditampilkan di tengah layar browser tanpa perlu tambahan pengaturan menggunakan CSS.
+* **Baris 1-32** menggunakan tag pembungkus <center> dan tabel bantuan dengan atribut height="100%" yang berfungsi untuk menempatkan seluruh elemen tabel tepat pada posisi tengah halaman, baik secara horizontal maupun vertikal. Dengan penggunaan teknik ini, tabel akan otomatis ditampilkan di tengah layar browser tanpa perlu tambahan pengaturan menggunakan CSS.
 
 - **Baris 7** menggunakan beberapa atribut pada tag <table>, yaitu border="1", cellpadding="10", dan cellspacing="0".
   - `border` berfungsi menampilkan garis batas tabel dengan ketebalan 1 piksel agar struktur kolom dan baris terlihat jelas. 
