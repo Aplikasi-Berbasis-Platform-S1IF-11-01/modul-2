@@ -110,7 +110,7 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 
 ### Hasil Tampilan (Screenshot)
 
-![Hasil Tabel HTML](Screenshot%202026-03-13%20204659.png)
+![Hasil Tabel HTML](Tugas2.png)
 
 ### Penjelasan Code
 
