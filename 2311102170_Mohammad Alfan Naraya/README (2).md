@@ -11,8 +11,8 @@
   <br />
   <h3>Disusun Oleh :</h3>
   <p>
-    <strong>Nadhif Atha Zaki</strong><br>
-    <strong>2311102007</strong><br>
+    <strong>Mohammad Alfan Naraya</strong><br>
+    <strong>2311102170</strong><br>
     <strong>S1 IF-11-01</strong>
   </p>
   <br />
@@ -59,59 +59,60 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 ### Kode HTML (`table.html`)
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tabel Dasar</title>
-</head>
-<body>
-    <center>
-        <table border="1" cellpadding="5" cellspacing="0">
-            <tr>
-                <th rowspan="2">Nama Lengkap</th>
-                <th colspan="2">Gelar Pendidikan</th>
-                <th rowspan="2">Age</th>
-            </tr>
-            <tr>
-                <th>Sarjana</th>
-                <th>Magister</th>
-            </tr>
-            <tr>
-                <td>Nadhif Atha Zaki</td>
-                <td>S.Kom</td>
-                <td>M.Kom</td>
-                <td>21</td>
-            </tr>
-            <tr>
-                <td>Nadhif Atha Zaki</td>
-                <td>S.Kom</td>
-                <td>M.Kom</td>
-                <td>22</td>
-            </tr>
-        </table>
-    </center>
-</body>
-</html>
+<center>
+    <table border="0" width="100%" height="100%">
+        <tr>
+            <td align="center" valign="middle">
+                
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Mahasiswa</th>
+                            <th>NIM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mohammad Alfan Naraya</td>
+                            <td>2311102170</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Shiva Indah Kurnia</td>
+                            <td>2311102035</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Narara</td>
+                            <td>2311102190</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </td>
+        </tr>
+    </table>
+</center>
 ```
 
 ### Hasil Tampilan (Screenshot)
 
-![Hasil Tabel HTML](assets/1.jpeg)
+![Hasil Tabel HTML](assets/1.png)
 
 ### Penjelasan Code
 
-- **Baris 7–32** menggunakan tag pembungkus `<center>` yang berfungsi untuk menempatkan seluruh elemen tabel pada posisi tengah halaman. Dengan penggunaan tag ini, tabel akan otomatis ditampilkan di tengah layar browser tanpa perlu tambahan pengaturan menggunakan CSS.
+- **Baris 1-32** menggunakan tag pembungkus <center> dan tabel bantuan dengan atribut height="100%" yang berfungsi untuk menempatkan seluruh elemen tabel tepat pada posisi tengah halaman, baik secara horizontal maupun vertikal. Dengan penggunaan teknik ini, tabel akan otomatis ditampilkan di tengah layar browser tanpa perlu tambahan pengaturan menggunakan CSS.
 
-- **Baris 9** menggunakan beberapa atribut pada tag `<table>`, yaitu `border="1"`, `cellpadding="5"`, dan `cellspacing="0"`.  
-  - `border` berfungsi menampilkan garis batas tabel dengan ketebalan 1 piksel.  
-  - `cellpadding` memberikan jarak antara isi sel dengan garis batas sel sebesar 5 piksel.  
-  - `cellspacing` digunakan untuk menghilangkan jarak antar sel sehingga tampilan tabel terlihat lebih rapat.
+- **Baris 7** menggunakan beberapa atribut pada tag <table>, yaitu border="1", cellpadding="10", dan cellspacing="0".
+  - `border` berfungsi menampilkan garis batas tabel dengan ketebalan 1 piksel agar struktur kolom dan baris terlihat jelas. 
+  - `cellpadding` memberikan jarak antara isi sel dengan garis batas sel sebesar 10 piksel agar teks tidak menempel pada garis.
+  - `cellspacing` digunakan untuk menghilangkan jarak antar sel sehingga tampilan garis tabel terlihat menyatu dan lebih rapi.
 
-- **Baris 11–12** menggunakan elemen `<th>` sebagai header tabel yang dilengkapi atribut `rowspan` dan `colspan`.  
-  - `rowspan="2"` pada kolom **Nama Lengkap** membuat sel tersebut memanjang hingga dua baris.  
-  - `colspan="2"` pada bagian **Gelar Pendidikan** menggabungkan dua kolom yang kemudian dibagi menjadi **Sarjana** dan **Magister** pada baris berikutnya.
+- **Baris 9-13** menggunakan elemen `<th>` sebagai header tabel yang mendefinisikan judul kolom seperti NO, Nama Mahasiswa, dan NIM. 
+    Tag `<th>` secara otomatis memberikan efek cetak tebal dan perataan tengah pada teks di dalamnya untuk membedakan antara judul dan isi data.
 
-- **Baris 19–30** berisi data tabel yang ditulis menggunakan elemen `<td>`. Setiap baris data dibungkus oleh tag `<tr>` yang menandakan satu baris tabel. Di dalam setiap baris tersebut terdapat beberapa sel yang berisi informasi seperti nama, gelar pendidikan, dan usia yang ditampilkan sejajar sesuai kolomnya.
+- **Baris 16–27** berisi data tabel yang ditulis menggunakan elemen `<td>`. Setiap baris data dibungkus oleh tag `<tr>` yang menandakan satu baris tabel. Di dalam setiap baris tersebut terdapat informasi spesifik mahasiswa (seperti nomor urut, nama lengkap, dan NIM) yang ditampilkan sejajar sesuai dengan kolom yang telah ditentukan pada bagian header.
 
 ## Refrensi
 
