@@ -56,7 +56,7 @@ Pada HTML versi lama juga terdapat beberapa atribut presentasi seperti `border`,
 
 Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni beserta hasil tampilannya.
 
-### Kode HTML (`table.html`)
+### Kode HTML (`modul2.html`)
 
 ```html
 <center>
