@@ -35,15 +35,15 @@
 
 ## 1. Dasar Teori
 
-**HTML atau HyperText Markup Language** merupakan bahasa dasar yang digunakan untuk membangun halaman web. HTML berfungsi untuk menyusun elemen-elemen dasar pada sebuah website, seperti judul, paragraf, tabel, gambar, hyperlink, dan form. Dalam struktur dasarnya, dokumen HTML terdiri dari deklarasi <!DOCTYPE html>, elemen <html>, <head>, dan <body>. Bagian <body> merupakan tempat semua konten yang ditampilkan pada browser.  ￼
+**HTML atau HyperText Markup Language** merupakan bahasa dasar yang digunakan untuk membangun halaman web. HTML berfungsi untuk menyusun elemen-elemen dasar pada sebuah website, seperti judul, paragraf, tabel, gambar, hyperlink, dan form. Dalam struktur dasarnya, dokumen HTML terdiri dari deklarasi `<!DOCTYPE html>`, elemen `<html>`, `<head>`, dan `<body>`. Bagian `<body>` merupakan tempat semua konten yang ditampilkan pada browser.  ￼
 
-Dalam HTML, sebuah elemen dibentuk oleh tag. Tag umumnya terdiri dari tag pembuka dan tag penutup, misalnya <p>...</p> atau <table>...</table>. Selain itu, HTML juga memiliki atribut, yaitu informasi tambahan yang diletakkan pada tag pembuka untuk memberikan fungsi tertentu pada elemen. Atribut dapat digunakan untuk mengatur identitas elemen, ukuran, tujuan link, maupun karakteristik tampilan dasar.  ￼
+Dalam HTML, sebuah elemen dibentuk oleh tag. Tag umumnya terdiri dari tag pembuka dan tag penutup, misalnya `<p>...</p>` atau `<table>...</table>`. Selain itu, HTML juga memiliki atribut, yaitu informasi tambahan yang diletakkan pada tag pembuka untuk memberikan fungsi tertentu pada elemen. Atribut dapat digunakan untuk mengatur identitas elemen, ukuran, tujuan link, maupun karakteristik tampilan dasar.  ￼
 
-Salah satu elemen penting dalam HTML adalah tabel. Tabel digunakan untuk menampilkan data dalam bentuk baris dan kolom sehingga informasi menjadi lebih terstruktur dan mudah dibaca. Pada HTML, tabel didefinisikan dengan tag <table>, sedangkan baris tabel ditulis dengan tag <tr>, judul kolom menggunakan tag <th>, dan isi data menggunakan tag <td>. Dengan susunan tersebut, data dapat ditampilkan secara sistematis sesuai kebutuhan pengguna.  ￼
+Salah satu elemen penting dalam HTML adalah tabel. Tabel digunakan untuk menampilkan data dalam bentuk baris dan kolom sehingga informasi menjadi lebih terstruktur dan mudah dibaca. Pada HTML, tabel didefinisikan dengan tag `<table>`, sedangkan baris tabel ditulis dengan tag `<tr>`, judul kolom menggunakan tag `<th>`, dan isi data menggunakan tag `<td>`. Dengan susunan tersebut, data dapat ditampilkan secara sistematis sesuai kebutuhan pengguna.  ￼
 
-Selain membuat tabel dasar, HTML juga mendukung penggabungan sel menggunakan atribut colspan dan rowspan. Atribut colspan digunakan untuk menggabungkan beberapa kolom, sedangkan rowspan digunakan untuk menggabungkan beberapa baris. Fitur ini berguna ketika tabel memerlukan susunan data yang lebih kompleks. Namun, pada tugas tabel dasar, elemen yang paling utama digunakan adalah <table>, <tr>, <th>, dan <td>.  ￼
+Selain membuat tabel dasar, HTML juga mendukung penggabungan sel menggunakan atribut colspan dan rowspan. Atribut colspan digunakan untuk menggabungkan beberapa kolom, sedangkan rowspan digunakan untuk menggabungkan beberapa baris. Fitur ini berguna ketika tabel memerlukan susunan data yang lebih kompleks. Namun, pada tugas tabel dasar, elemen yang paling utama digunakan adalah `<table>`, `<tr>`, `<th>`, dan `<td>`.  ￼
 
-Untuk menempatkan tampilan di bagian tengah halaman tanpa menggunakan CSS, HTML dapat menggunakan tag <center>. Pada modul praktikum, tag ini dicontohkan untuk meletakkan form di bagian tengah halaman. Dengan demikian, pada pembuatan tabel dasar tanpa bantuan CSS maupun styling lainnya, tabel dapat dibungkus menggunakan tag <center> agar tampil di tengah secara horizontal pada halaman web.
+Untuk menempatkan tampilan di bagian tengah halaman tanpa menggunakan CSS, HTML dapat menggunakan tag `<center>`. Pada modul praktikum, tag ini dicontohkan untuk meletakkan form di bagian tengah halaman. Dengan demikian, pada pembuatan tabel dasar tanpa bantuan CSS maupun styling lainnya, tabel dapat dibungkus menggunakan tag `<center>` agar tampil di tengah secara horizontal pada halaman web.
 
 ---
 
@@ -91,7 +91,6 @@ Berikut merupakan implementasi Tabel dengan menggunakan HTML.
     </center>
 </body>
 </html>
-
 ```
 
 ### Hasil Tampilan (Screenshot)
