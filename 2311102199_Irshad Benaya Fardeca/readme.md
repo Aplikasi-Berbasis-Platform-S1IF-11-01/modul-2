@@ -433,5 +433,7 @@ placeholder="Input Email" required>
 </html>
 ```
 
+Menampilkan tabel data secara terstruktur di tengah halaman web dengan menggunakan elemen dasar ```<table>```, di mana baris pertama didefinisikan sebagai header ```<th>``` untuk kolom Nama, NIM, dan Kelas, sementara tiga baris berikutnya menggunakan tag ```<tr>``` dan ```<td>``` untuk menyajikan informasi identitas. Penggunaan atribut border="1" dan align="center" memberikan visualisasi garis pembatas dan posisi simetris.
+
 ### Output:
 <img src="asset/output.png"/>
