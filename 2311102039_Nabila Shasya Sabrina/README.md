@@ -1,7 +1,5 @@
 <div align="center">
 
-
-
 \# LAPORAN PRAKTIKUM
 
 \# APLIKASI BERBASIS PLATFORM
@@ -10,39 +8,18 @@
 
 \## TABEL DASAR HTML
 
-<img src="logo.jpeg" width="200">
-
-
-
-
+<img src="assets/logo.jpeg" width="300">
 
 \*\*Disusun Oleh :\*\*
-
-
-
 \*\*Nabila Shasya Sabrina\*\*
-
-
-
 \*\*2311102039\*\*
-
-
 
 \*\*S1 IF-11-REG01\*\*
 
-
-
 \*\*Dosen Pengampu :\*\*
-
-
-
 Dimas Fanny Hebrasianto Permadi, S.ST., M.Kom
 
-
-
 \*\*PROGRAM STUDI S1 INFORMATIKA\*\*
-
-
 
 \*\*FAKULTAS INFORMATIKA\*\*
 
@@ -226,7 +203,7 @@ Di dalam tabel pembungkus tersebut terdapat tabel utama dengan atribut border="1
 
 <div align="center">
 
-&nbsp;   <img src="hasil.png" width="500">
+&nbsp;   <img src="assets/hasil.png" width="500">
 
 </div>
 
