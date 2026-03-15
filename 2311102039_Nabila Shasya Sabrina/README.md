@@ -6,21 +6,9 @@
 
 \# APLIKASI BERBASIS PLATFORM
 
-
-
-
-
-
-
 \## MODUL 2
 
 \## TABEL DASAR HTML
-
-
-
-
-
-
 
 <img src="logo.jpeg" width="200">
 
