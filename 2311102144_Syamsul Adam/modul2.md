@@ -101,7 +101,7 @@ Berikut ini adalah implementasi tabel berdasarkan struktur dasar HTML murni bese
 
 ### Penjelasan Code
 
-Program ini merupakan implementasi halaman web statis berbasis HTML yang dirancang untuk menampilkan data informasi mahasiswa secara terstruktur menggunakan elemen tabel. Dengan memanfaatkan atribut standar seperti border untuk penegasan garis, align untuk pengaturan posisi tengah, serta cellpadding untuk estetika tata letak, program ini berhasil menyajikan data yang terdiri dari kolom nomor, nama, NIM, dan jurusan secara rapi dan mudah dibaca. Struktur kode ini mengandalkan hierarki tag <table>, <tr>, <th>, dan <td>, yang berfungsi untuk memisahkan antara bagian sel kepala tabel dengan baris data isi, sehingga memberikan representasi informasi yang logis dan fungsional di dalam browser.
+Program ini merupakan implementasi halaman web statis berbasis HTML yang dirancang untuk menampilkan data informasi mahasiswa secara terstruktur menggunakan elemen tabel. Dengan memanfaatkan atribut standar seperti border untuk penegasan garis, align untuk pengaturan posisi tengah, serta cellpadding untuk estetika tata letak, program ini berhasil menyajikan data yang terdiri dari kolom nomor, nama, NIM, dan jurusan secara rapi dan mudah dibaca. Struktur kode ini mengandalkan hierarki tag table, tr, th, dan td, yang berfungsi untuk memisahkan antara bagian sel kepala tabel dengan baris data isi, sehingga memberikan representasi informasi yang logis dan fungsional di dalam browser.
 
 ## Refrensi
 
